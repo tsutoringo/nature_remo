@@ -20,8 +20,16 @@
     "prepublishOnly": "npm run build",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsutoringo/nature_remo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsutoringo/nature_remo/issues"
+  },
+  "homepage": "https://github.com/tsutoringo/nature_remo#readme",
+  "keywords": ["nature remo", "IR"],
+  "author": "tsutoringo",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
