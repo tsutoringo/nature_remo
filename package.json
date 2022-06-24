@@ -1,0 +1,32 @@
+{
+  "name": "@tsutoringo/nature_remo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/mod.js",
+  "types": "dist/mod.d.ts",
+  "source": "src/mod.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/mod.d.ts",
+      "import": "./dist/mod.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    }
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "camelcase-keys": "^8.0.1",
+    "snakecase-keys": "^5.4.2"
+  }
+}
