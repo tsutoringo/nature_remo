@@ -1,6 +1,7 @@
 {
   "name": "@tsutoringo/nature_remo",
   "version": "1.0.0",
+  "private": false,
   "description": "",
   "main": "dist/mod.js",
   "types": "dist/mod.d.ts",
