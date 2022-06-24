@@ -1,2 +1,2 @@
-export * from './interfaces.ts';
-export * from './structures/Cloud.ts';
+export * from './interfaces';
+export * from './structures/Cloud';

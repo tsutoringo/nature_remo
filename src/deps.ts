@@ -1,2 +1,2 @@
-export { default as camelcaseKeys } from 'https://cdn.skypack.dev/camelcase-keys?dts';
-export { default as snakecaseKeys } from 'https://cdn.skypack.dev/snakecase-keys';
+export { default as camelcaseKeys } from 'camelcase-keys';
+export { default as snakecaseKeys } from 'snakecase-keys';

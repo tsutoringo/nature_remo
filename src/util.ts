@@ -1,4 +1,4 @@
-import * as NatureRemo from './mod.ts';
+import * as NatureRemo from './mod';
 
 export const object2FormData = (obj: Record<string, unknown>) => {
   const formData = new FormData();

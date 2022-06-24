@@ -1,4 +1,4 @@
-import { LiteralUnion } from './util.ts';
+import { LiteralUnion } from './util';
 
 export interface User {
   id: string;

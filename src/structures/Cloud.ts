@@ -1,7 +1,7 @@
 export type Method = 'GET' | 'POST';
-import * as NatureRemo from '../mod.ts';
-import { object2FormData, getButtonName } from '../util.ts';
-import { camelcaseKeys, snakecaseKeys } from '../deps.ts';
+import * as NatureRemo from '../mod';
+import { object2FormData, getButtonName } from '../util';
+import { camelcaseKeys, snakecaseKeys } from '../deps';
 
 export class Cloud {
   static VERSION = 1;
