@@ -1,6 +1,6 @@
 {
   "name": "@tsutoringo/nature-remo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "",
   "main": "dist/mod.js",
@@ -28,7 +28,10 @@
     "url": "https://github.com/tsutoringo/nature_remo/issues"
   },
   "homepage": "https://github.com/tsutoringo/nature_remo#readme",
-  "keywords": ["nature remo", "IR"],
+  "keywords": [
+    "nature remo",
+    "IR"
+  ],
   "author": "tsutoringo",
   "license": "ISC",
   "devDependencies": {
